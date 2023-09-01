@@ -25,9 +25,9 @@ struct OrderPage: View {
                         List {
                             Section("ITEMS") {
                                 ForEach(cartManager.cart, id:\.0.id) { item in
-                                    OrderItem()
+                                    OrderItem(item: item)
                                 }
-                            }.listRowBackground(Color("Background"))
+                            }.listRowBackground(Color("SurfaceBackground"))
                                                 
                             Section("YOUR DETAILS") {
                                 VStack {
@@ -39,7 +39,7 @@ struct OrderPage: View {
                                         .textFieldStyle(.roundedBorder)
                                 }.padding(.top)
                                  .padding(.bottom)
-                            }.listRowBackground(Color("Background"))
+                            }.listRowBackground(Color("SurfaceBackground"))
                             
                             Section() {
                                 HStack {

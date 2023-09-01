@@ -9,4 +9,14 @@ import Foundation
 
 class CartManager: ObservableObject {
     @Published var cart: [(Product, Int)] = [];
+    
+    func add(product: Product, quantity: Int) {
+        self.cart.append((product, quantity));
+    }
+    
+    func remove(product: Product) {
+        self.cart.removeAll { itemsInCart in
+            return itemsInCart.0.id == product.id;
+        }
+    }
 }
