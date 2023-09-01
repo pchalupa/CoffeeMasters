@@ -45,6 +45,7 @@
 		CA765C342AA1D8AB004CBD52 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
 		CA765C362AA1DF8C004CBD52 /* OrderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderItem.swift; sourceTree = "<group>"; };
 		CA765C3B2AA22A92004CBD52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CA765C3C2AA22B80004CBD52 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 		CA765C022AA0AC12004CBD52 = {
 			isa = PBXGroup;
 			children = (
+				CA765C3C2AA22B80004CBD52 /* README.md */,
 				CA765C0D2AA0AC12004CBD52 /* CoffeeMasters */,
 				CA765C0C2AA0AC12004CBD52 /* Products */,
 			);
