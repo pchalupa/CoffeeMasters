@@ -19,4 +19,10 @@ class CartManager: ObservableObject {
             return itemsInCart.0.id == product.id;
         }
     }
+    
+    func total() -> Double {
+        cart.reduce(0.0) {
+            $0 + $1.0.price * Double($1.1)
+        }
+    }
 }
